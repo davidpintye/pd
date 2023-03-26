@@ -1,0 +1,16 @@
+<div class="background">
+  <div class="container text-center0">
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+      <div class="col" *ngFor="let course of courses">
+        <div class="card" style="width: 18rem;">
+          <img [src]="course.image" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{course.title}}</h5>
+            <p class="card-text">{{course.text}}</p>
+            <a [href]="course.certLink" class="btn" [ngClass]="course.completed ? 'btn-primary' : 'disabled'" target="_blank">Go to certification</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

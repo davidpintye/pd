@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0 20px;
+  margin: 12px 20px auto 20px;
+  height: 100%;
+  width: fit-content;
+  flex-flow: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+p {
+  margin: 6px 0;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+li {
+  padding: 6px 0;
+}
+
+h2 {
+  margin-bottom: 0px;
+  border-bottom: 3px solid rgb(51, 75, 153);
+  width: fit-content;
+}
+
+.second-line {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.desc {
+  text-align: justify;
+  color: rgb(69, 69, 69);
+  font-size: 12px;
+}
+
+.lang-list {
+  margin-top: 6px;
+}
+
+.lang-list-a4 {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hobb-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px rgb(102, 102, 102);
+}
+
+.hobby-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin: 6px auto;
+  width: 100%;
+}
+
+.hobb-list {
+  display: flex;
+  flex-direction: column;
+  margin: 6px;
+}
+
+.hobb-list > span {
+  margin-top: 2px;
+  text-align: center;
+  text-overflow: clip;
+  width: 50px;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.content {
+  width: 385px;
+}
+
+.content-a4 {
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    width: auto;
+    max-width: 385px;
+    flex-flow: unset;
+  }
+}
+
+
+
+@media screen and (min-width: 1272px) {
+  .container {
+    flex-flow: wrap;
+  }
+}
+
+

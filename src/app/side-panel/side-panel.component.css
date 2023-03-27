@@ -2,13 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(41, 41, 106);
+  /* background-color: rgb(41, 41, 106); */
+  background-image: linear-gradient(0deg, rgb(41, 41, 106), rgb(41, 41, 106));
   height: 100%;
   margin: 0;
   width: 300px;
-  -webkit-print-color-adjust: exact !important;
-  color-adjust: exact !important;
-  print-color-adjust: exact !important;
 }
 
 .container-a4 {

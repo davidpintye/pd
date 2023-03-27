@@ -5,25 +5,10 @@
 
 button {
   height: 48px;
-  width: 100px;
   margin-right: 5px;
 }
 
 .container {
   width: fit-content;
-}
-
-.cv-container-print {
-  box-shadow: none;
-  padding: 1px;
-}
-
-@media screen and (max-width: 850px) {
-  .cv-container-basic {
-    flex-direction: column;
-  }
-
-  .container {
-    flex-direction: column;
-  }
+  padding: 12px;
 }

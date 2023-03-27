@@ -11,27 +11,18 @@
 }
 
 .cv-container-a4 {
+  padding: 1px;
   width: 210mm;
   height: 297mm;
   flex-direction: row;
 }
 
-@page {
-  size: A4;
-  orientation: portrait;
-  margin: 0;
-  -webkit-print-color-adjust: exact !important;
-  color-adjust: exact !important;
-  print-color-adjust: exact !important;
-}
+@media screen and (max-width: 850px) {
+  .cv-container-basic {
+    flex-direction: column;
+  }
 
-@media print {
-  @page {
-    size: A4;
-    orientation: portrait;
-    margin: 0;
-    -webkit-print-color-adjust: exact !important;
-    color-adjust: exact !important;
-    print-color-adjust: exact !important;
+  .container {
+    flex-direction: column;
   }
 }

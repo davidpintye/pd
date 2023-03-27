@@ -1,22 +1,11 @@
-.container {
-  margin: auto;
-  padding: 12px;
-}
-
-button {
-  height: 48px;
-  width: 85px;
-  margin-right: 5px;
-}
-
 .cv-container {
   display: flex;
-  margin: 12px auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: white;
 }
 
 .cv-container-basic {
+  margin: 1px auto 12px auto;
   width: fit-content;
   max-width: 1255px;
 }
@@ -27,13 +16,22 @@ button {
   flex-direction: row;
 }
 
-@media screen and (max-width: 850px) {
-  .cv-container-basic {
-    flex-direction: column;
-  }
+@page {
+  size: A5;
+  orientation: portrait;
+  margin: 0;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
 
-  .container {
-    flex-direction: column;
+@media print {
+  @page {
+    size: A5;
+    orientation: landscape;
+    margin: 0;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
-
 }

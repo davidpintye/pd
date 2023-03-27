@@ -1,3 +1,6 @@
-<div>
-  <button *ngFor="let width of windowWidths" mat-raised-button id="a4-button" (click)="newWindow(width)">{{width}}px</button>
+<div class="container">
+  <div>
+    <button *ngFor="let width of windowWidths" mat-raised-button id="a4-button" (click)="newWindow(width)">{{width}}px</button>
+  </div>
+  <p>(This feature only works properly on desktop computers.)</p>
 </div>

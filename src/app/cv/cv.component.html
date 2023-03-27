@@ -1,10 +1,4 @@
-<div class="container">
-  <div class="button-container">
-    <button mat-raised-button id="a4-button" (click)="isA4=!isA4" [ngStyle]="isA4 ? {'backgroundColor': 'rgb(63, 150, 101)'} : {'backgroundColor': 'white'}">A4</button>
-    <button mat-raised-button id="a4-button" (click)="downloadCv()"><mat-icon>download</mat-icon>PDF</button>
+<div class="cv-container" #cv [ngClass]="isA4 ? 'cv-container-a4' : 'cv-container-basic'">
+  <app-side-panel [isA4]="isA4"></app-side-panel>
+  <app-main-panel [isA4]="isA4"></app-main-panel>
   </div>
-  <div class="cv-container" #cv [ngClass]="isA4 ? 'cv-container-a4' : 'cv-container-basic'">
-    <app-side-panel [isA4]="isA4"></app-side-panel>
-    <app-main-panel [isA4]="isA4"></app-main-panel>
-  </div>
-</div>

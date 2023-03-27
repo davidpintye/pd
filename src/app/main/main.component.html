@@ -1,0 +1,23 @@
+<mat-toolbar color="primary">
+  <button *ngIf="isMenu" mat-icon-button (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div class="a-container" *ngIf="!isMenu">
+    <a routerLink="cv">CV</a>
+    <a routerLink="projects">Projects</a>
+    <a routerLink="courses">Courses</a>
+  </div>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #drawer mode="over">
+    <mat-nav-list>
+      <a mat-list-item routerLink="cv" (click)="drawer.toggle()">CV</a>
+      <a mat-list-item routerLink="projects" (click)="drawer.toggle()">Projects</a>
+      <a mat-list-item routerLink="courses" (click)="drawer.toggle()">Courses</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <div class="background">
+    <app-responsive-bar></app-responsive-bar>
+    <router-outlet></router-outlet>
+  </div>
+</mat-sidenav-container>

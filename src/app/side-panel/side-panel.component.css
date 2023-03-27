@@ -6,6 +6,9 @@
   height: 100%;
   margin: 0;
   width: 300px;
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+  print-color-adjust: exact !important;
 }
 
 .container-a4 {
@@ -42,6 +45,7 @@ h1 {
   height: 150px;
   border-radius: 75px;
   object-fit: cover;
+  object-position: center;
 }
 
 ul {

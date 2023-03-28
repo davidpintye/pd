@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'cv' },
+  { path: '404', redirectTo: 'cv'},
   { path: 'print', component: CvComponent , data: {isA4: true, isPrintMode: true}},
   {
     path: '', component: MainComponent, children: [

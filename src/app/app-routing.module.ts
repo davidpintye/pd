@@ -4,11 +4,12 @@ import { CoursesComponent } from './courses/courses.component';
 import { CvContainerComponent } from './cv-container/cv-container.component';
 import { CvComponent } from './cv/cv.component';
 import { MainComponent } from './main/main.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'cv' },
-  { path: '404', redirectTo: 'cv'},
+  { path: '**', component: NotFoundComponent },
   { path: 'print', component: CvComponent , data: {isA4: true, isPrintMode: true}},
   {
     path: '', component: MainComponent, children: [

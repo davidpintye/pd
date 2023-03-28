@@ -18,7 +18,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { CoursesComponent } from './courses/courses.component';
 import { ResponsiveBarComponent } from './responsive-bar/responsive-bar.component';
 import { MainComponent } from './main/main.component';
-import { CvContainerComponent } from './cv-container/cv-container.component'
+import { CvContainerComponent } from './cv-container/cv-container.component';
+import { NotFoundComponent } from './not-found/not-found.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CvContainerComponent } from './cv-container/cv-container.component'
     CoursesComponent,
     ResponsiveBarComponent,
     MainComponent,
-    CvContainerComponent
+    CvContainerComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

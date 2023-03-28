@@ -23,7 +23,7 @@ export class ProjectsComponent {
       gitHubRepo: 'https://github.com/Davi-hub/cardMaker'
     },
     {
-      name: 'My own page',
+      name: 'Personal webpage',
       description: 'This smaller project is this webpage, where I try introduce myself and my projects. I used Angular framework, for design Angular Material, Bootstrap (at Courses component) and pure CSS.',
       imageUrl: 'assets/projects/pd.png',
       projectUrl: 'project2',

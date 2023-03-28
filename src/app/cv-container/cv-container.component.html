@@ -2,8 +2,9 @@
   <div class="button-container" *ngIf="!isPrintMode">
     <button mat-raised-button id="a4-button" (click)="isA4=!isA4"
       [ngStyle]="isA4 ? {'backgroundColor': 'rgb(63, 150, 101)'} : {'backgroundColor': 'white'}">A4</button>
-    <button mat-raised-button id="download-button" (click)="downloadCv()"><mat-icon>download</mat-icon>PDF</button>
-    <button mat-raised-button id="print-button" (click)="printCv()"><mat-icon>print</mat-icon>Print</button>
+    <!-- does not work properly -->
+    <!-- <button mat-raised-button id="download-button" (click)="downloadCv()"><mat-icon>download</mat-icon>PDF</button>  -->
+    <button mat-raised-button id="print-button" (click)="printCv()"><mat-icon>print</mat-icon>Print (to file)</button>
   </div>
-  <app-cv [isA4]="isA4"></app-cv>
+  <app-cv [isA4]="isA4" [isPrintMode]="isPrintMode"></app-cv>
 </div>

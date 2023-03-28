@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class SidePanelComponent {
   @Input() isA4!: boolean;
+  @Input() isPrintMode!: boolean;
 }

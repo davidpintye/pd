@@ -1,4 +1,4 @@
-<div [ngClass]="isA4 ? 'container-a4' : 'container'">
+<div class="container" [ngClass]="{'container-print': isPrintMode}">
   <div class="personal">
     <h1>Pintye Dávid</h1>
     <div class="img.container">
@@ -91,5 +91,9 @@
         MongoDB
       </div>
     </div>
+  </div>
+  <div class="visit" *ngIf="isPrintMode">
+    <span>Please, visit my webpage:</span>
+    <a href="https://davi-hub.github.io/pd">https://davi-hub.github.io/pd</a>
   </div>
 </div>

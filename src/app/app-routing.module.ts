@@ -9,7 +9,6 @@ import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'cv' },
-  { path: '**', component: NotFoundComponent },
   { path: 'print', component: CvComponent , data: {isA4: true, isPrintMode: true}},
   {
     path: '', component: MainComponent, children: [
@@ -18,6 +17,7 @@ const routes: Routes = [
       { path: 'courses', component: CoursesComponent },
     ]
   },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({

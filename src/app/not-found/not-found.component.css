@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.number {
+  height: fit-content;
+  font-size: 160px;
+  line-height: normal;
+}
+
+.text {
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  font-size: 16px;
+  line-height: normal;
+  margin: 16px;
+}

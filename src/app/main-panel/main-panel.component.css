@@ -13,23 +13,24 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 p {
   margin: 6px 0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   text-align: justify;
 }
 
 li {
-  padding: 6px 0;
+  padding: 4px 0;
 }
 
 h2 {
   margin-bottom: 0px;
-  border-bottom: 3px solid rgb(51, 75, 153);
+  border-bottom: 3px solid #003366;
   width: fit-content;
+  font-size: 20px;
 }
 
 .second-line {
@@ -41,6 +42,7 @@ h2 {
   text-align: justify;
   color: rgb(69, 69, 69);
   font-size: 12px;
+  line-height: normal;
 }
 
 .lang-list {

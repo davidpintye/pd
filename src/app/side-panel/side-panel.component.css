@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(41, 41, 106);
+  background-color: #003366;
   height: 100%;
   margin: 0;
   width: 300px;
@@ -80,7 +80,7 @@ h2 {
 .skill-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   font-size: 10px;
   line-height: 11px;
@@ -95,8 +95,8 @@ h2 {
 }
 
 .skill-box > img {
-  height: 55%;
-  margin: auto;
+  height: 40%;
+  margin: 10% auto 0 auto;
 }
 
 .skill-box > span {
@@ -127,6 +127,22 @@ h2 {
 .visit > a {
   width: fit-content;
   margin: auto;
+}
+
+.progress-container {
+  display: flex;
+}
+
+.progress {
+  margin: auto 0 0 0;
+  height: 3px;
+  background-color: rgb(86, 86, 133);
+}
+
+.remainder {
+  margin: auto 0 0 0;
+  height: 3px;
+  background-color: rgb(221, 221, 221);
 }
 
 @media screen and (max-width: 850px) {

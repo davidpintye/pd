@@ -11,10 +11,10 @@ export class SidePanelComponent {
   @Input() isPrintMode!: boolean;
   skills: Skill[] = [
     new Skill('Angular', 'assets/skills/angular-icon-1.svg', 65),
-    new Skill('HTML5', '../../assets/skills/html-1.svg', 65),
+    new Skill('HTML5', 'assets/skills/html-1.svg', 65),
     new Skill('CSS', 'assets/skills/css-3.svg', 60),
     new Skill('JavaScript', 'assets/skills/logo-javascript.svg', 60),
-    new Skill('TypeScript', '/assets/skills/typescript.svg', 60),
+    new Skill('TypeScript', 'assets/skills/typescript.svg', 60),
     new Skill('Git', 'assets/skills/git-icon.svg', 50),
     new Skill('Node.js', 'assets/skills/nodejs-1.svg', 45),
     new Skill('Firebase Auth @ Db', 'assets/skills/firebase-1.svg', 45),

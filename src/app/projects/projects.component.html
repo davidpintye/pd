@@ -11,8 +11,8 @@
             <p>{{project.description}}</p>
           </mat-card-content>
           <mat-card-actions>
-            <a mat-raised-button color="accent" href="{{project.projectUrl}}" target="_blank">Webpage</a>
-            <a mat-raised-button color="accent" href="{{project.gitHubRepo}}" target="_blank">GitHub</a>
+            <a mat-raised-button color="accent" href="{{project.projectUrl}}" [disabled]="!project.projectUrl" target="_blank">Webpage</a>
+            <a mat-raised-button color="accent" href="{{project.gitHubRepo}}" [disabled]="!project.gitHubRepo" target="_blank">GitHub</a>
           </mat-card-actions>
         </div>
       </mat-card>

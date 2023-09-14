@@ -16,6 +16,13 @@ export interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
+      name: 'Palace (front-end)',
+      description: 'This is the frontend of my project for a card game called Palace. It was built using the Angular framework. To communicate with the backend server I used http methods, but I would like to make this project with Websockets as well.',
+      imageUrl: 'assets/projects/palace.png',
+      projectUrl: '',
+      gitHubRepo: 'https://github.com/Davi-hub/palace_fe'
+    },
+    {
       name: 'CardMaker',
       description: 'With this project you could make your own Hungarian Playing Card Deck. I used Firebase authentication and db. Style made by Angular Material and pure CSS.',
       imageUrl: 'assets/projects/cm.png',

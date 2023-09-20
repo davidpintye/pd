@@ -16,11 +16,18 @@ export interface Project {
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      name: 'Palace (front-end)',
+      name: 'Palace (frontend)',
       description: 'This is the frontend of my project for a card game called Palace. It was built using the Angular framework. To communicate with the backend server I used http methods, but I would like to make this project with Websockets as well.',
       imageUrl: 'assets/projects/palace.png',
-      projectUrl: '',
+      projectUrl: 'https://palace-24472.web.app/',
       gitHubRepo: 'https://github.com/Davi-hub/palace_fe'
+    },
+    {
+      name: 'Palace (backend)',
+      description: 'This is the backend of my project for a card game called Palace. It was built using Spring Boot. To communicate with the frontend server I used http methods, but I would like to make this project with Websockets as well.',
+      imageUrl: 'assets/projects/palace.png',
+      projectUrl: 'https://palace-24472.web.app/',
+      gitHubRepo: 'https://github.com/Davi-hub/palace_be'
     },
     {
       name: 'CardMaker',
@@ -33,7 +40,7 @@ export class ProjectsComponent {
       name: 'Personal webpage',
       description: 'This smaller project is this webpage, where I try introduce myself and my projects. I used Angular framework, for design Angular Material, Bootstrap (at Courses component) and pure CSS.',
       imageUrl: 'assets/projects/pd.png',
-      projectUrl: 'project2',
+      projectUrl: 'https://davi-hub.github.io/pd/',
       gitHubRepo: 'https://github.com/Davi-hub/pd'
     },
     {

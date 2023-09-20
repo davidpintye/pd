@@ -17,10 +17,11 @@ export class SidePanelComponent {
     new Skill('TypeScript', 'assets/skills/typescript.svg', 60),
     new Skill('Git', 'assets/skills/git-icon.svg', 50),
     new Skill('Node.js', 'assets/skills/nodejs-1.svg', 45),
-    new Skill('Firebase Auth @ Db', 'assets/skills/firebase-1.svg', 45),
+    new Skill('Firebase Auth & Db', 'assets/skills/firebase-1.svg', 45),
     new Skill('Java', 'assets/skills/javae.svg', 40),
+    new Skill('Spring Boot', 'assets/skills/spring_boot.png', 40),
     new Skill('Python', 'assets/skills/python-5.svg', 25),
-    new Skill('Bootstrap', 'assets/skills/bootstrap-4.svg', 25),
+    new Skill('Bootstrap', 'assets/skills/bootstrap-4.svg', 40),
     new Skill('MongoDB', 'assets/skills/mongodb-icon-1.svg', 20),
   ];
 }

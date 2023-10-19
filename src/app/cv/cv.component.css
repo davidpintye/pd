@@ -11,10 +11,10 @@
 }
 
 .cv-container-a4 {
-  padding: 1px;
+  margin: auto;
+  box-shadow: none;
   width: 210mm;
   height: 297mm;
-  flex-direction: row;
 }
 
 @media screen and (max-width: 850px) {

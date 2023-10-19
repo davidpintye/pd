@@ -17,9 +17,9 @@ ul {
 }
 
 p {
-  margin: 6px 0;
-  margin-bottom: 8px;
+  margin: 6px 0 10px 0;
   text-align: justify;
+  font-size: 14px;
 }
 
 li {
@@ -27,7 +27,7 @@ li {
 }
 
 h2 {
-  margin-bottom: 0px;
+  margin: 6px 0 0 0;
   border-bottom: 3px solid #003366;
   width: fit-content;
   font-size: 20px;
@@ -70,7 +70,7 @@ h2 {
   flex-direction: column;
   justify-content: space-evenly;
   flex-flow: wrap;
-  margin: 6px auto;
+  margin: 6px auto 0 auto;
   width: 100%;
 }
 

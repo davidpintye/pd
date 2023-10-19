@@ -45,14 +45,28 @@ export class CoursesComponent {
       title: 'Javascript Essentials',
       text: 'Completed, but it is a free course, so Udemy do not provide certification link.',
       completed: true,
-      certLink: 'https://www.udemy.com/course/javascript-essentials/learn/lecture/4393202?start=15#overview'
+      certLink: 'https://www.udemy.com/course/javascript-essentials/'
+    },
+    {
+      image: 'https://img-b.udemycdn.com/course/480x270/3611296_bcb5_6.jpg',
+      title: 'Clean Code',
+      text: 'Completed!',
+      completed: true,
+      certLink: 'https://www.udemy.com/certificate/UC-f3d322b6-ddb5-4160-ab7f-f48ca46af0d5/'
     },
     {
       image: 'https://img-b.udemycdn.com/course/480x270/1406344_1d65_3.jpg',
       title: 'JavaScript Algorithms and Data Structures Masterclass',
       text: 'In progress...',
       completed: false,
-      certLink: 'https://www.udemy.com/course/javascript-essentials/learn/lecture/4393202?start=15#overview'
-    }
+      certLink: 'https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/'
+    },
+    {
+      image: 'https://img-b.udemycdn.com/course/480x270/4066932_720e.jpg',
+      title: 'Design Patterns in TypeScript',
+      text: 'In progress...',
+      completed: false,
+      certLink: 'https://www.udemy.com/course/design-patterns-typescript/'
+    },
   ]
 }

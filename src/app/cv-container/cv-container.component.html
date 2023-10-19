@@ -2,9 +2,9 @@
   <div class="button-container" *ngIf="!isPrintMode">
     <button mat-raised-button id="a4-button" (click)="isA4=!isA4"
       [ngStyle]="isA4 ? {'backgroundColor': 'rgb(63, 150, 101)'} : {'backgroundColor': 'white'}">A4</button>
-    <!-- does not work properly due to bugs in jsPdf -->
-    <!-- <button mat-raised-button id="download-button" (click)="downloadCv()"><mat-icon>download</mat-icon>PDF</button>  -->
-    <button mat-raised-button id="print-button" (click)="printCv()"><mat-icon>print</mat-icon>Print (to file)</button>
+    <button mat-raised-button id="print-button" (click)="printCv()"><mat-icon>print</mat-icon>Print</button>
+    <button mat-raised-button id="eng-button" (click)="onLang('eng')" [ngStyle]="isEng ? {'backgroundColor': '#c9c9c9'} : {'backgroundColor': 'white'}"><img src="../../assets/flags/UK.svg" alt="eng"></button>
+    <button mat-raised-button id="hun-button" (click)="onLang('hun')" [ngStyle]="!isEng ? {'backgroundColor': '#c9c9c9'} : {'backgroundColor': 'white'}"><img src="../../assets/flags/Hun.svg" alt="hun"></button>
   </div>
-  <app-cv [isA4]="isA4" [isPrintMode]="isPrintMode"></app-cv>
+  <app-cv [isA4]="isA4" [isPrintMode]="isPrintMode" [isEng]="isEng"></app-cv>
 </div>

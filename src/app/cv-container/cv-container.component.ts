@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
@@ -8,9 +8,10 @@ import jsPDF from 'jspdf';
   templateUrl: './cv-container.component.html',
   styleUrls: ['./cv-container.component.css']
 })
-export class CvContainerComponent{
+export class CvContainerComponent {
   isA4 = false;
   isPrintMode = false;
+  isEng = true;
   @ViewChild('cv') cv!: ElementRef;
 
   constructor(private router: Router) { }
@@ -25,7 +26,19 @@ export class CvContainerComponent{
   }
 
   printCv() {
-    this.router.navigate(['print'], );
+    if (this.isEng) {
+      this.router.navigate(['print-eng'],);
+    } else {
+      this.router.navigate(['print-hun'],);
+    }
+  }
+
+  onLang(lang: string) {
+    if (lang === 'eng') {
+      this.isEng = true;
+    } else {
+      this.isEng = false;
+    }
   }
 
 }

@@ -1,6 +1,7 @@
 .container {
   margin: auto;
-  padding: 1px;
+  width: fit-content;
+  padding: 12px;
 }
 
 button {
@@ -8,7 +9,6 @@ button {
   margin-right: 5px;
 }
 
-.container {
-  width: fit-content;
-  padding: 12px;
+img {
+  height: 20px;
 }

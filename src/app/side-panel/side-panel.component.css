@@ -8,10 +8,6 @@
   width: 300px;
 }
 
-.container-print {
-  justify-content: space-between;
-}
-
 .personal {
   display: flex;
   flex-direction: column;
@@ -21,6 +17,7 @@
 h1 {
   color: white;
   margin-top: 12px;
+  font-weight: 400;
 }
 
 .profile-pic {
@@ -48,7 +45,7 @@ li {
 a {
   display: flex;
   align-items: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
 }
 
@@ -62,7 +59,7 @@ span {
 }
 
 .links {
-  direction: rtl;
+  font-size: 15px;
 }
 
 .skills {
@@ -115,18 +112,22 @@ h2 {
 }
 
 .visit {
-  margin: 50px 0;
-}
-
-.visit > span {
-  padding: 6px 0;
-  color: white;
-  font-size: 20px;
+  margin: 16px auto;
+  color: rgb(178, 80, 80);
+  text-align: center;
+  font-size: 16px;
+  width: 240px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(171, 171, 171);
+  border-radius: 8px;
+  padding: 8px;
 }
 
 .visit > a {
+  margin: 6px auto;
   width: fit-content;
-  margin: auto;
+  color: rgb(91, 91, 91);
 }
 
 .progress-container {
@@ -146,14 +147,14 @@ h2 {
 }
 
 @media screen and (max-width: 850px) {
-  .container {
+  .container-width {
     width: auto;
     max-width: 425px;
   }
 }
 
 @media screen and (min-width: 1272px) {
-  .container {
+  .container-width {
     width: 350px;
   }
 }

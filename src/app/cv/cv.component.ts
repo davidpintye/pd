@@ -9,13 +9,17 @@ import { ActivatedRoute } from '@angular/router';
 export class CvComponent implements OnInit, AfterViewInit {
   @Input() isA4 = true;
   @Input() isPrintMode!: boolean;
+  @Input() isEng!: boolean;
 
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.route.data.subscribe((data: any) => {
-      this.isA4 = data.isA4;
-      this.isPrintMode = data.isPrintMode;
+      if (data.isA4 && data.isPrintMode) {
+        this.isA4 = data.isA4;
+        this.isPrintMode = data.isPrintMode;
+        this.isEng = data.isEng;
+      }      
     });
   }
 

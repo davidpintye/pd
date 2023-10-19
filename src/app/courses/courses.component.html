@@ -7,7 +7,7 @@
           <div class="card-body">
             <h5 class="card-title">{{course.title}}</h5>
             <p class="card-text">{{course.text}}</p>
-            <a [href]="course.certLink" class="btn" [ngClass]="course.completed ? 'btn-primary' : 'disabled'" target="_blank">Go to certification</a>
+            <a [href]="course.certLink" class="btn btn-primary" target="_blank">{{course.completed ? 'Go to certification': 'Go to course'}}</a>
           </div>
         </div>
       </div>

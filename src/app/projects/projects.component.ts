@@ -31,14 +31,14 @@ export class ProjectsComponent {
     },
     {
       name: 'CardMaker',
-      description: 'With this project you could make your own Hungarian Playing Card Deck. I used Firebase authentication and db. Style made by Angular Material and pure CSS.',
+      description: 'With this project you could make your own Hungarian Playing Card Deck. I used Firebase authentication and db. Style made by Angular Material and CSS.',
       imageUrl: 'assets/projects/cm.png',
       projectUrl: 'https://cardmaker-1d2fe.web.app/',
       gitHubRepo: 'https://github.com/Davi-hub/cardMaker'
     },
     {
       name: 'Personal webpage',
-      description: 'This smaller project is this webpage, where I try introduce myself and my projects. I used Angular framework, for design Angular Material, Bootstrap (at Courses component) and pure CSS.',
+      description: 'This smaller project is this webpage, where I try introduce myself and my projects. I used Angular framework, for design Angular Material, Bootstrap (at Courses component) and CSS.',
       imageUrl: 'assets/projects/pd.png',
       projectUrl: 'https://davi-hub.github.io/pd/',
       gitHubRepo: 'https://github.com/Davi-hub/pd'

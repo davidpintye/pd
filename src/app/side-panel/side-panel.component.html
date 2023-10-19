@@ -1,8 +1,10 @@
-<div class="container" [ngClass]="{'container-print': isPrintMode}">
+<div class="container" [ngClass]="{'container-width': !isA4}">
   <div class="personal">
-    <h1>David Pintye</h1>
+    <h1>{{isEng ? 'David Pintye' : 'Pintye Dávid'}}</h1>
     <div class="img.container">
-          <img src="https://firebasestorage.googleapis.com/v0/b/cvmaker-16cd5.appspot.com/o/id_photo.jpg?alt=media&token=ba358c1e-008b-4d1e-b04c-e33490befc73" alt="profile-pic" class="profile-pic">
+      <img
+        src="../../assets/profile_1.jpg"
+        alt="profile-pic" class="profile-pic">
     </div>
     <div class="info-container">
       <ul>
@@ -39,8 +41,18 @@
       </ul>
     </div>
   </div>
+  <div class="visit" *ngIf="isPrintMode && isEng">
+    Please, visit my webpage at
+    <a href="https://davi-hub.github.io/pd">https://davi-hub.github.io/pd</a>
+    where you can find important informations about my courses and projects with descriptions, deployed web apps and Github repos!
+  </div>
+  <div class="visit" *ngIf="isPrintMode && !isEng">
+    Kérlek, látogass el a
+    <a href="https://davi-hub.github.io/pd">https://davi-hub.github.io/pd</a>
+    címre, ahol fontos információkat találsz a kurzusaimról és projekteimről, leírássokkal, működő web applikációkkal és Github repókkal!
+  </div>
   <div class="skills">
-    <h2>Skills</h2>
+    <h2>{{isEng ? 'Technologies' : 'Technológiák'}}:</h2>
     <div class="skill-container">
       <div class="skill-box" *ngFor="let skill of skills">
         <img [src]="skill.img" [alt]="skill.name">
@@ -51,9 +63,5 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="visit" *ngIf="isPrintMode">
-    <span>Please, visit my webpage:</span>
-    <a href="https://davi-hub.github.io/pd">https://davi-hub.github.io/pd</a>
   </div>
 </div>

@@ -1,4 +1,4 @@
 <div class="cv-container" #cv [ngClass]="isA4 ? 'cv-container-a4' : 'cv-container-basic'">
-  <app-side-panel [isA4]="isA4" [isPrintMode]="isPrintMode"></app-side-panel>
-  <app-main-panel [isA4]="isA4"></app-main-panel>
+  <app-side-panel [isA4]="isA4" [isPrintMode]="isPrintMode" [isEng]="isEng"></app-side-panel>
+  <app-main-panel [isA4]="isA4" [isEng]="isEng"></app-main-panel>
 </div>

@@ -29,5 +29,3 @@ export class CvComponent implements OnInit, AfterViewInit {
     }, 0);
   }
 }
-
-// orientation: 'l', format: 'a4', w: 297, h: 210 }

@@ -11,7 +11,7 @@
 }
 
 .cv-container-a4 {
-  margin: auto;
+  /* margin: auto; */
   box-shadow: none;
   width: 210mm;
   height: 297mm;

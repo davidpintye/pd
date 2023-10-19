@@ -6,9 +6,32 @@
 
 button {
   height: 48px;
-  margin-right: 5px;
+  margin: 5px;
+}
+
+button:first-of-type {
+  margin-left: 0;
 }
 
 img {
   height: 20px;
+}
+
+.button-container {
+  margin: 0;
+  width: fit-content;
+}
+
+@media screen and (max-width: 850px) {
+  .button-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 320px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  button:first-of-type {
+    margin-left: 5px;
+  }
 }

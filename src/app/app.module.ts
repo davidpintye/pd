@@ -11,6 +11,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatDialogModule } from '@angular/material/dialog';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainPanelComponent } from './main-panel/main-panel.component';
 import { CvComponent } from './cv/cv.component';
@@ -19,7 +21,8 @@ import { CoursesComponent } from './courses/courses.component';
 import { ResponsiveBarComponent } from './responsive-bar/responsive-bar.component';
 import { MainComponent } from './main/main.component';
 import { CvContainerComponent } from './cv-container/cv-container.component';
-import { NotFoundComponent } from './not-found/not-found.component'
+import { NotFoundComponent } from './not-found/not-found.component';
+import { DownloadDialogComponent } from './download-dialog/download-dialog.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +35,8 @@ import { NotFoundComponent } from './not-found/not-found.component'
     ResponsiveBarComponent,
     MainComponent,
     CvContainerComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    DownloadDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +47,8 @@ import { NotFoundComponent } from './not-found/not-found.component'
     MatToolbarModule,
     MatCardModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

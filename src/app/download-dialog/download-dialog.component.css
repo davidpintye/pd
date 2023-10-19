@@ -1,0 +1,13 @@
+div {
+    box-sizing: border-box;  
+    padding-top: 16px;  
+}
+
+a, button {
+    display: flex;
+    align-items: center;
+    margin: 16px auto;
+    width: fit-content;
+    padding: 10px;
+    text-decoration: none;
+}

@@ -101,7 +101,7 @@ export class MainPanelComponent {
         firstLine: "",
         secondLine: "",
         desc: "Ebben az időszakban különféle munkákat vállaltam, többek között elektromos biztonsági szakember asszisztenseként, részt vettem belsőépítészeti projektekben, vállaltam adatfeldolgozási feladatokat és kisebb informatikai, fejlesztői munkákat.",
-        period: "2013-2017"
+        period: "2017-2021"
       },
       {
         firstLine: "Külső munkatárs",

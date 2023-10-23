@@ -33,6 +33,11 @@ h2 {
   font-size: 20px;
 }
 
+.period {
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+}
+
 .second-line {
   font-weight: 800;
   font-size: 16px;

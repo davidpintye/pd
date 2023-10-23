@@ -34,36 +34,41 @@ export class MainPanelComponent {
   aLanguage: Language = this.eng;
   engContent = new MainPanelContent(
     {
-      paragraphOne: "IT has always been a passion of mine. My dream is to work as a developer, and at the same time, the entire IT world inspires and attracts me. I have been studying web development for two years. I acquired my knowledge in a self-taught manner, mostly in English. Then, I organized, developed, and supplemented this knowledge through the Career Starter Kit course at Codecool.",
+      paragraphOne: "IT has always been a passion of mine. My goal is to work as a developer, and at the same time, the entire IT world inspires and attracts me. I have been studying web development for two years. I acquired my knowledge in a self-taught manner, mostly in English. Then, I organized, developed, and supplemented this knowledge through the Career Starter Kit course at Codecool.",
       paragraphTwo: "I am well-versed in the Angular framework, JavaScript, and TypeScript languages. I also have significant knowledge of Node.js, Java and Spring/Spring Boot. I know the principles of object-oriented programming, clean code and SOLID software development. My project work has required me to learn the basics of software testing. I have been working with NoSQL databases, but I also have a basic knowledge of SQL systems."
     },
     [
       {
-        firstLine: "(2017-2021)",
-        secondLine: "Various jobs (often parallel to each other)",
-        desc: "During this period, I undertook various jobs, including assisting to an electrical safety specialist, interior design projects, data processing tasks and smaller IT projects."
+        firstLine: "",
+        secondLine: "",
+        desc: "During this period, I undertook various jobs, often parallel to each other, including assisting to an electrical safety specialist, interior design projects, data processing tasks and smaller IT projects.",
+        period: "2017-2021"
       },
       {
-        firstLine: "Contributor (2016)",
+        firstLine: "Contributor",
         secondLine: "MOL Hungary - Record Office",
-        desc: "Digitization of drilling documents."
+        desc: "Digitization of drilling documents.",
+        period: "2016"
       },
       {
-        firstLine: "Intern (2016, 2017)",
+        firstLine: "Intern",
         secondLine: "MOL Hungary - HSE",
-        desc: "Integration, formatting update, review, and preparation for release of the same subject area HSE regulations."
+        desc: "Integration, formatting update, review, and preparation for release of the same subject area HSE regulations.",
+        period: "2016, 2017"
       }
     ],
     [
       {
-        firstLine: "Career Starter Kit course (2022-2023)",
+        firstLine: "Career Starter Kit course",
         secondLine: "Codecool",
-        desc: ""
+        desc: "",
+        period: "2022-2023"
       },
       {
-        firstLine: "Environmental Engineering Bsc (2013-2017)",
+        firstLine: "Environmental Engineering Bsc",
         secondLine: "Budapest University of Technology and Economics",
-        desc: ""
+        desc: "",
+        period: "2013-2017"
       }
     ],
     "Among my strengths, I would highlight my perseverance and creativity. I always approach my tasks with enthusiasm and strive to complete them to the best of my ability. I enjoy creating new and useful things and thinking 'out of the box'. Whether working in a team or independently, I am comfortable and effective in both scenarios.",
@@ -88,36 +93,41 @@ export class MainPanelComponent {
 
   hunContent: MainPanelContent = new MainPanelContent(
     {
-      paragraphOne: "Az IT mindig is a szenvedélyem volt. Az az álmom, hogy fejlesztői pozícióban dolgozzak, ugyanakkor az egész IT-világ inspirál és vonz. Két éve tanulok webfejlesztést. Tudásomat autodidakta módon sajátítottam el, többnyire angol nyelven, majd a Codecool Career Starter Kit tanfolyamán rendszereztem, fejlesztettem és egészítettem ki.",
+      paragraphOne: "Az IT mindig is a szenvedélyem volt. A célom, hogy fejlesztői pozícióban dolgozzak, ugyanakkor az egész IT-világ inspirál és vonz. Két éve tanulok webfejlesztést. Tudásomat autodidakta módon sajátítottam el, többnyire angol nyelven, majd a Codecool Career Starter Kit tanfolyamán rendszereztem, fejlesztettem és egészítettem ki.",
       paragraphTwo: "Jól ismerem az Angular keretrendszert, a JavaScript és TypeScript nyelveket, továbbá jelentős ismeretekkel rendelkezem a Node.js, Java és Spring/Spring Boot terén is. Ismerem az objektum-orientált programozás, a tiszta kód és a SOLID szoftverfejlesztés alapelveit. Projektmunkáim megkövetelték, hogy elsajátítsam a szoftvertesztelés alapjait. Idáig elsősorban NoSQL adatbázisokkal dolgoztam, de rendelkezem ismeretekkel SQL rendszerek terén is."
     },
     [
       {
-        firstLine: "(2017-2021)",
-        secondLine: "Alkalmi vagy időszakos munkák, munkahelyek",
-        desc: "Ebben az időszakban különféle munkákat vállaltam, többek között elektromos biztonsági szakember asszisztenseként, részt vettem belsőépítészeti projektekben, vállaltam adatfeldolgozási feladatokat és kisebb informatikai, fejlesztői munkákat."
+        firstLine: "",
+        secondLine: "",
+        desc: "Ebben az időszakban különféle munkákat vállaltam, többek között elektromos biztonsági szakember asszisztenseként, részt vettem belsőépítészeti projektekben, vállaltam adatfeldolgozási feladatokat és kisebb informatikai, fejlesztői munkákat.",
+        period: "2013-2017"
       },
       {
-        firstLine: "Külső munkatárs (2016)",
+        firstLine: "Külső munkatárs",
         secondLine: "MOL Magyarország - Irattár",
-        desc: "Fúrási dokumentumok digitalizálása."
+        desc: "Fúrási dokumentumok digitalizálása.",
+        period: "2016"
       },
       {
-        firstLine: "Gyakornok (2016, 2017)",
+        firstLine: "Gyakornok",
         secondLine: "MOL Magyarország - EBK",
-        desc: "Részt vettem az azonos témája EBK szabályzatok egybeolvasztásában, formai frissítésében, ellenőrzésében, majd kiadásra való előkészítésében."
+        desc: "Részt vettem az azonos témája EBK szabályzatok egybeolvasztásában, formai frissítésében, ellenőrzésében, majd kiadásra való előkészítésében.",
+        period: "2016, 2017"
       }
     ],
     [
       {
-        firstLine: "Career Starter Kit course (2022-2023)",
+        firstLine: "Career Starter Kit course",
         secondLine: "Codecool",
-        desc: ""
+        desc: "",
+        period: "2022-2023"
       },
       {
-        firstLine: "Környezetmérnöki szak Bsc (2013-2017)",
+        firstLine: "Környezetmérnöki szak Bsc",
         secondLine: "Budapesti Műszaki és Gazdaságtudományi Egyetem",
-        desc: ""
+        desc: "",
+        period: "2013-2017"
       }
     ],
     "Erősségeim közül kiemelném a kitartásomat, kreativitásomat. Feladataimat mindig lelkesen és a legjobb tudásom szerint igyekszem elvégezni. Erős problémamegoldó képességgel rendelkezem, és figyelek a részletekre. Szeretek új dolgokat létrehozni és a 'dobozon kívül' gondolkodni. Kedvelem a csapatmunkát, ugyanakkor törekszem az önálló munkavégzésre.",

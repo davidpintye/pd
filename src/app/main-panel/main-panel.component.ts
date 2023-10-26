@@ -34,7 +34,7 @@ export class MainPanelComponent {
   aLanguage: Language = this.eng;
   engContent = new MainPanelContent(
     {
-      paragraphOne: "IT has always been a passion of mine. My goal is to work as a developer, and at the same time, the entire IT world inspires and attracts me. I have been studying web development for two years. I acquired my knowledge in a self-taught manner, mostly in English. Then, I organized, developed, and supplemented this knowledge through the Career Starter Kit course at Codecool.",
+      paragraphOne: "I have been studying web development for two years. I acquired my knowledge in a self-taught manner, mostly in English. Then, I organized, developed, and supplemented this knowledge through the Career Starter Kit course at Codecool.",
       paragraphTwo: "I am well-versed in the Angular framework, JavaScript, and TypeScript languages. I also have significant knowledge of Node.js, Java and Spring/Spring Boot. I know the principles of object-oriented programming, clean code and SOLID software development. My project work has required me to learn the basics of software testing. I have been working with NoSQL databases, but I also have a basic knowledge of SQL systems."
     },
     [
@@ -93,7 +93,7 @@ export class MainPanelComponent {
 
   hunContent: MainPanelContent = new MainPanelContent(
     {
-      paragraphOne: "Az IT mindig is a szenvedélyem volt. A célom, hogy fejlesztői pozícióban dolgozzak, ugyanakkor az egész IT-világ inspirál és vonz. Két éve tanulok webfejlesztést. Tudásomat autodidakta módon sajátítottam el, többnyire angol nyelven, majd a Codecool Career Starter Kit tanfolyamán rendszereztem, fejlesztettem és egészítettem ki.",
+      paragraphOne: "Két éve tanulok webfejlesztést. Tudásomat autodidakta módon sajátítottam el, többnyire angol nyelven, majd ezt a Codecool Career Starter Kit tanfolyamán rendszereztem, fejlesztettem és egészítettem ki.",
       paragraphTwo: "Jól ismerem az Angular keretrendszert, a JavaScript és TypeScript nyelveket, továbbá jelentős ismeretekkel rendelkezem a Node.js, Java és Spring/Spring Boot terén is. Ismerem az objektum-orientált programozás, a tiszta kód és a SOLID szoftverfejlesztés alapelveit. Projektmunkáim megkövetelték, hogy elsajátítsam a szoftvertesztelés alapjait. Idáig elsősorban NoSQL adatbázisokkal dolgoztam, de rendelkezem ismeretekkel SQL rendszerek terén is."
     },
     [

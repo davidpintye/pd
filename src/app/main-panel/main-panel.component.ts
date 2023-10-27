@@ -74,7 +74,7 @@ export class MainPanelComponent {
     "Among my strengths, I would highlight my perseverance and creativity. I always approach my tasks with enthusiasm and strive to complete them to the best of my ability. I enjoy creating new and useful things and thinking 'out of the box'. Whether working in a team or independently, I am comfortable and effective in both scenarios.",
     {
       beforeTheATag:"I have many great projects. Please check them out at ",
-      src: "https://davi-hub.github.io/pd/projects",
+      src: "https://davidpintye.github.io/pd/projects",
       afterTheATag: "! Every project has a description, link to the deployed web app and link to its Github repository."
     },
     [
@@ -133,7 +133,7 @@ export class MainPanelComponent {
     "Erősségeim közül kiemelném a kitartásomat, kreativitásomat. Feladataimat mindig lelkesen és a legjobb tudásom szerint igyekszem elvégezni. Erős problémamegoldó képességgel rendelkezem, és figyelek a részletekre. Szeretek új dolgokat létrehozni és a 'dobozon kívül' gondolkodni. Kedvelem a csapatmunkát, ugyanakkor törekszem az önálló munkavégzésre.",
     {
       beforeTheATag:"Több remek projektem van. Kérlek, tekintsd meg ezeket a ",
-      src: "https://davi-hub.github.io/pd/projects",
+      src: "https://davidpintye.github.io/pd/projects",
       afterTheATag: " címen! Minden projekthez tartozik egy rövid ismertető, egy link a működő web app-hoz és egy link a Github repository-hoz." 
     },
     [

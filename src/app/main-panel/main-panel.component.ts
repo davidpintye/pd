@@ -39,10 +39,10 @@ export class MainPanelComponent {
     },
     [
       {
-        firstLine: "",
+        firstLine: "Entrepreneur",
         secondLine: "",
-        desc: "During this period, I undertook various jobs, often parallel to each other, including assisting to an electrical safety specialist, interior design projects, data processing tasks and smaller IT projects.",
-        period: "2017-2021"
+        desc: "As an agricultural entrepreneur, I have gained experience in growing and wholesaling agricultural crops.",
+        period: "2018-2021"
       },
       {
         firstLine: "Contributor",
@@ -98,10 +98,10 @@ export class MainPanelComponent {
     },
     [
       {
-        firstLine: "",
+        firstLine: "Vállalkozó",
         secondLine: "",
-        desc: "Ebben az időszakban különféle munkákat vállaltam, többek között elektromos biztonsági szakember asszisztenseként, részt vettem belsőépítészeti projektekben, vállaltam adatfeldolgozási feladatokat és kisebb informatikai, fejlesztői munkákat.",
-        period: "2017-2021"
+        desc: "Mezőgazdasági vállalkozóként tapasztalatot szereztem mezőgazdasági növények termesztésében és nagykereskedelmi értékesítésben.",
+        period: "2018-2021"
       },
       {
         firstLine: "Külső munkatárs",

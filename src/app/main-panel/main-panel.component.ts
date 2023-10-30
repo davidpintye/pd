@@ -39,9 +39,9 @@ export class MainPanelComponent {
     },
     [
       {
-        firstLine: "Entrepreneur",
-        secondLine: "",
-        desc: "As an agricultural entrepreneur, I have gained experience in growing and wholesaling agricultural crops.",
+        firstLine: "",
+        secondLine: "Family business",
+        desc: "I have gained experience in growing and wholesaling agricultural crops.",
         period: "2018-2021"
       },
       {
@@ -98,9 +98,9 @@ export class MainPanelComponent {
     },
     [
       {
-        firstLine: "Vállalkozó",
-        secondLine: "",
-        desc: "Mezőgazdasági vállalkozóként tapasztalatot szereztem mezőgazdasági növények termesztésében és nagykereskedelmi értékesítésben.",
+        firstLine: "",
+        secondLine: "Családi vállalkozás",
+        desc: "Tapasztalatot szereztem mezőgazdasági növények termesztésében és nagykereskedelmi értékesítésben.",
         period: "2018-2021"
       },
       {

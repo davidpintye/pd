@@ -40,7 +40,7 @@ export class MainPanelComponent {
     [
       {
         firstLine: "",
-        secondLine: "Family business",
+        secondLine: "Family Business",
         desc: "I have gained experience in growing and wholesaling agricultural crops.",
         period: "2018-2021"
       },
